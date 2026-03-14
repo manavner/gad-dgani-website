@@ -1,0 +1,84 @@
+{
+  "lectures": [
+    {
+      "title_en": "Introduction to Cell Biology: Structure and Function",
+      "title_he": "מבוא לביולוגיה של התא: מבנה ותפקוד",
+      "course_en": "BIOL 1001 — Foundations of Biology",
+      "course_he": "BIOL 1001 — יסודות הביולוגיה",
+      "year": "1980–2015",
+      "level": "Undergraduate",
+      "desc_en": "A foundational lecture covering cell theory, organelle structure and function, membrane dynamics, and the flow of genetic information. Introduces students to the unity and diversity of life at the cellular level.",
+      "desc_he": "הרצאה יסודית העוסקת בתורת התא, מבנה ותפקוד של אברוני התא, דינמיקת ממברנות וזרימת המידע הגנטי. מציגה לסטודנטים את האחדות והמגוון של החיים ברמה התאית."
+    },
+    {
+      "title_en": "Developmental Biology: From Egg to Organism",
+      "title_he": "ביולוגיה התפתחותית: מביצה לאורגניזם",
+      "course_en": "BIOL 3210 — Developmental Biology",
+      "course_he": "BIOL 3210 — ביולוגיה התפתחותית",
+      "year": "1978–2015",
+      "level": "Undergraduate / Graduate",
+      "desc_en": "An overview of the major events in animal development: fertilization, cleavage, gastrulation, organogenesis and growth. Emphasizes the molecular and genetic mechanisms that drive each developmental stage, drawing on model organisms from C. elegans to Homo sapiens.",
+      "desc_he": "סקירה של האירועים העיקריים בהתפתחות בעלי חיים: הפריה, חלוקה, גסטרולציה, אורגנוגנזה וצמיחה. מדגישה את המנגנונים המולקולריים והגנטיים המניעים כל שלב התפתחותי, תוך שימוש באורגניזמי מודל מ-C. elegans ועד Homo sapiens."
+    },
+    {
+      "title_en": "Morphogenesis and Pattern Formation",
+      "title_he": "מורפוגנזה ויצירת דפוסים",
+      "course_en": "BIOL 3215 — Advanced Developmental Biology",
+      "course_he": "BIOL 3215 — ביולוגיה התפתחותית מתקדמת",
+      "year": "1982–2015",
+      "level": "Graduate",
+      "desc_en": "In-depth treatment of how spatial patterns arise during development. Topics include reaction-diffusion systems, morphogenetic gradients, the French Flag model, Turing instabilities, and recent quantitative imaging approaches for measuring morphogen distributions in vivo.",
+      "desc_he": "עיסוק מעמיק באופן שבו נוצרים דפוסים מרחביים במהלך ההתפתחות. הנושאים כוללים מערכות תגובה-דיפוזיה, גרדיאנטים מורפוגנטיים, מודל הדגל הצרפתי, אי-יציבויות טיורינג, וגישות הדמיה כמותיות עדכניות למדידת התפלגויות מורפוגן in vivo."
+    },
+    {
+      "title_en": "Signal Transduction and Intercellular Communication",
+      "title_he": "העברת אותות ותקשורת בין-תאית",
+      "course_en": "BIOL 4100 — Molecular Cell Biology",
+      "course_he": "BIOL 4100 — ביולוגיה תאית מולקולרית",
+      "year": "1985–2012",
+      "level": "Graduate",
+      "desc_en": "Detailed analysis of the major signal transduction pathways: Wnt, Notch, Hedgehog, FGF, and BMP. Covers receptor activation, second messengers, transcriptional outputs, and the logic of pathway integration and cross-talk in the context of development and disease.",
+      "desc_he": "ניתוח מפורט של מסלולי העברת האותות העיקריים: Wnt, Notch, Hedgehog, FGF ו-BMP. מכסה הפעלת קולטנים, שליחים שניוניים, פלטים תעתיקיים ולוגיקת שילוב מסלולים בהקשר של התפתחות ומחלה."
+    },
+    {
+      "title_en": "Stem Cells: Biology and Therapeutic Potential",
+      "title_he": "תאי גזע: ביולוגיה ופוטנציאל טיפולי",
+      "course_en": "BIOL 4350 — Stem Cell Biology",
+      "course_he": "BIOL 4350 — ביולוגיה של תאי גזע",
+      "year": "1998–2015",
+      "level": "Graduate",
+      "desc_en": "Explores pluripotent embryonic stem cells, adult tissue stem cells, and induced pluripotent stem (iPS) cells. Covers niche biology, reprogramming factors, directed differentiation, and the ethical and regulatory landscape of regenerative medicine.",
+      "desc_he": "בוחן תאי גזע עובריים פלוריפוטנטיים, תאי גזע רקמתיים בוגרים ותאי גזע מושרי-פלוריפוטנטיות (iPS). מכסה ביולוגיית נישה, גורמי תכנות-מחדש, בידול מכוון ומסגרת האתיקה והרגולציה של הרפואה הרגנרטיבית."
+    },
+    {
+      "title_en": "Epigenetics: Gene Regulation Beyond the DNA Sequence",
+      "title_he": "אפיגנטיקה: ויסות גנים מעבר לרצף ה-DNA",
+      "course_en": "BIOL 4420 — Epigenetics and Chromatin Biology",
+      "course_he": "BIOL 4420 — אפיגנטיקה וביולוגיה של כרומטין",
+      "year": "2000–2015",
+      "level": "Graduate",
+      "desc_en": "Covers DNA methylation, histone modifications, chromatin remodeling complexes, non-coding RNAs, and three-dimensional genome organization. Discusses inheritance of epigenetic marks, developmental reprogramming, and the epigenetic basis of cancer and aging.",
+      "desc_he": "מכסה מתילציה של DNA, שינויים על היסטונים, קומפלקסים של שיפוץ כרומטין, RNA לא-מקודד וארגון תלת-ממדי של הגנום. דן בירושת סימנים אפיגנטיים, תכנות-מחדש התפתחותי ובסיס אפיגנטי של סרטן והזדקנות."
+    },
+    {
+      "title_en": "Genetics of Development: Regulatory Networks and Gene Circuits",
+      "title_he": "גנטיקה של התפתחות: רשתות רגולציה ומעגלי גנים",
+      "course_en": "BIOL 5010 — Systems Biology of Development",
+      "course_he": "BIOL 5010 — ביולוגיה מערכתית של התפתחות",
+      "year": "2004–2015",
+      "level": "Graduate / Advanced",
+      "desc_en": "A systems-level view of developmental gene regulatory networks (GRNs). Covers network inference, feed-forward and feedback circuits, toggle switches, Boolean and ODE modeling, and experimental approaches to mapping GRN architecture in sea urchin and other organisms.",
+      "desc_he": "מבט ברמת המערכות על רשתות הגנים הרגולטוריות ההתפתחותיות. מכסה הסקת רשתות, מעגלים של הזנת-קדימה ומשוב, מתגי-toggle, מידול בוליאני ו-ODE, וגישות ניסויות למיפוי ארכיטקטורת GRN בקיפוד-ים ואורגניזמים אחרים."
+    },
+    {
+      "title_en": "Public Lecture: The Wonders of Embryonic Development",
+      "title_he": "הרצאה פתוחה: פלאי ההתפתחות העוברית",
+      "course_en": "Public Outreach Series — Tel Aviv University",
+      "course_he": "סדרת הרצאות לציבור — אוניברסיטת תל אביב",
+      "year": "2008",
+      "level": "Public",
+      "desc_en": "A public lecture for general audiences exploring how a single fertilized egg transforms into a complete, complex organism. Uses stunning imaging and accessible analogies to convey the wonder of embryonic development to a non-specialist audience.",
+      "desc_he": "הרצאה פתוחה לקהל הרחב החוקרת כיצד ביצית מופרית בודדת הופכת לאורגניזם שלם ומורכב. משתמשת בהדמיות מרהיבות ואנלוגיות נגישות להעביר את פלאי ההתפתחות העוברית לקהל שאינו מומחה."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Professor Gad Degani</title>
+  <meta name="description" content="Photo gallery — Professor Gad Degani, biology research and laboratory life." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <style>
+    .gallery-section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--gold);
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 10, 25, 0.96);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .lightbox.open { display: flex; }
+
+    .lightbox-caption {
+      color: var(--cream-dim);
+      font-size: 0.9rem;
+      text-align: center;
+      max-width: 500px;
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      background: none;
+      border: none;
+      color: var(--gold);
+      font-size: 2rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .lightbox-content {
+      background: var(--navy-light);
+      width: min(480px, 90vw);
+      aspect-ratio: 4/3;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<div class="page-wrapper">
+
+  <div class="page-header">
+    <span class="section-label" data-en="Visual Archive" data-he="ארכיון ויזואלי">Visual Archive</span>
+    <h1 class="page-title" data-en="Gallery" data-he="גלריה">Gallery</h1>
+    <p class="page-subtitle"
+       data-en="Research, teaching, and scientific life"
+       data-he="מחקר, הוראה וחיים מדעיים">
+      Research, teaching, and scientific life
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <p class="text-muted" style="margin-bottom:2rem"
+         data-en="A visual record of four decades of scientific work, teaching, and collaboration. Photo placeholders are shown below — replace with actual images by placing them in an images/ folder and updating the src attributes."
+         data-he="תיעוד ויזואלי של ארבעה עשורים של עבודה מדעית, הוראה ושיתוף פעולה. מוצגים למטה מקומות שמורים לתמונות — החלף בתמונות אמיתיות על ידי הצבתן בתיקיית images/ ועדכון תכונות ה-src.">
+        A visual record of four decades of scientific work, teaching, and collaboration. Photo placeholders are shown below — replace with actual images by placing them in an <code style="color:var(--gold);background:var(--gold-subtle);padding:0.1rem 0.4rem;border-radius:4px">images/</code> folder and updating the <code style="color:var(--gold);background:var(--gold-subtle);padding:0.1rem 0.4rem;border-radius:4px">src</code> attributes.
+      </p>
+
+      <!-- Laboratory -->
+      <div class="gallery-section-title" data-en="🔬 Laboratory &amp; Research" data-he="🔬 מעבדה ומחקר">🔬 Laboratory &amp; Research</div>
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openLightbox('Microscopy session, TAU lab, 1985')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="Microscopy session, TAU lab, 1985" data-he="מפגש מיקרוסקופיה, מעבדת אוניברסיטת ת&quot;א, 1985">Microscopy session, TAU lab, 1985</span>
+          </div>
+          <div class="gallery-caption" data-en="Microscopy session, TAU lab, 1985" data-he="מפגש מיקרוסקופיה, מעבדת אוניברסיטת ת&quot;א, 1985">Microscopy session, TAU lab, 1985</div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('Xenopus embryo microinjection, 1994')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="Xenopus embryo microinjection, 1994" data-he="הזרקה מיקרו לעובר Xenopus, 1994">Xenopus embryo microinjection, 1994</span>
+          </div>
+          <div class="gallery-caption" data-en="Xenopus embryo microinjection, 1994" data-he="הזרקה מיקרו לעובר Xenopus, 1994">Xenopus embryo microinjection, 1994</div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('Sea urchin field collection, Mediterranean coast, 1998')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="Field collection, Mediterranean coast, 1998" data-he="איסוף בשטח, חוף הים התיכון, 1998">Field collection, Mediterranean coast, 1998</span>
+          </div>
+          <div class="gallery-caption" data-en="Sea urchin field collection, 1998" data-he="איסוף קיפודי ים, 1998">Sea urchin field collection, 1998</div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('Lab meeting, Department of Molecular Biology, 2005')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="Lab meeting, 2005" data-he="מפגש מעבדה, 2005">Lab meeting, 2005</span>
+          </div>
+          <div class="gallery-caption" data-en="Lab meeting, Department of Molecular Biology, 2005" data-he="מפגש מעבדה, המחלקה לביולוגיה מולקולרית, 2005">Lab meeting, 2005</div>
+        </div>
+      </div>
+
+      <!-- Teaching -->
+      <div class="gallery-section-title" data-en="📚 Teaching &amp; Mentorship" data-he="📚 הוראה וחינוך">📚 Teaching &amp; Mentorship</div>
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openLightbox('Developmental Biology lecture, TAU amphitheatre, 1992')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="Developmental Biology lecture, 1992" data-he="הרצאת ביולוגיה התפתחותית, 1992">Developmental Biology lecture, 1992</span>
+          </div>
+          <div class="gallery-caption" data-en="Developmental Biology lecture, 1992" data-he="הרצאת ביולוגיה התפתחותית, 1992">Developmental Biology lecture, 1992</div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('PhD thesis defense celebration, 2003')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="PhD thesis defense celebration, 2003" data-he="חגיגת הגנת עבודת דוקטורט, 2003">PhD thesis defense celebration, 2003</span>
+          </div>
+          <div class="gallery-caption" data-en="PhD defense celebration, 2003" data-he="חגיגת הגנת דוקטורט, 2003">PhD defense celebration, 2003</div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('Public lecture at TAU Open Day, 2008')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="Public lecture, TAU Open Day, 2008" data-he="הרצאה פתוחה, יום הפתוח של אוניברסיטת ת&quot;א, 2008">Public lecture, TAU Open Day, 2008</span>
+          </div>
+          <div class="gallery-caption" data-en="Public lecture, TAU Open Day, 2008" data-he="הרצאה פתוחה, יום הפתוח, 2008">Public lecture, Open Day, 2008</div>
+        </div>
+      </div>
+
+      <!-- Conferences & Awards -->
+      <div class="gallery-section-title" data-en="🏆 Conferences &amp; Awards" data-he="🏆 כנסים ופרסים">🏆 Conferences &amp; Awards</div>
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openLightbox('EMBO Meeting, Heidelberg, 2001')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="EMBO Meeting, Heidelberg, 2001" data-he="כינוס EMBO, היידלברג, 2001">EMBO Meeting, Heidelberg, 2001</span>
+          </div>
+          <div class="gallery-caption" data-en="EMBO Meeting, Heidelberg, 2001" data-he="כינוס EMBO, היידלברג, 2001">EMBO Meeting, 2001</div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('Israel Prize ceremony, Jerusalem, 2012')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="Israel Prize ceremony, Jerusalem, 2012" data-he="טקס פרס ישראל, ירושלים, 2012">Israel Prize ceremony, Jerusalem, 2012</span>
+          </div>
+          <div class="gallery-caption" data-en="Israel Prize ceremony, 2012" data-he="טקס פרס ישראל, 2012">Israel Prize ceremony, 2012</div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('With Lewis Wolpert, Cambridge, 1977')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="With Lewis Wolpert, Cambridge, 1977" data-he="עם לואיס וולפרט, קיימברידג׳, 1977">With Lewis Wolpert, Cambridge, 1977</span>
+          </div>
+          <div class="gallery-caption" data-en="With Lewis Wolpert, Cambridge, 1977" data-he="עם לואיס וולפרט, קיימברידג׳, 1977">With Lewis Wolpert, Cambridge, 1977</div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('Retirement symposium, Tel-Hai Academic College, 2015')">
+          <div class="gallery-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/></svg>
+            <span data-en="Retirement symposium, TAU, 2015" data-he="סימפוזיום פרישה, אוניברסיטת ת&quot;א, 2015">Retirement symposium, TAU, 2015</span>
+          </div>
+          <div class="gallery-caption" data-en="Retirement symposium, 2015" data-he="סימפוזיום פרישה, 2015">Retirement symposium, 2015</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">✕</button>
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="var(--gold)" stroke-width="1.5" width="56" height="56" opacity="0.4">
+      <rect x="8" y="8" width="32" height="26" rx="3"/><path d="M16 34v6M32 34v6M12 40h24"/>
+    </svg>
+    <p style="color:var(--text-muted);font-size:0.85rem;text-align:center;padding:0 1rem">
+      <span data-en="Photo placeholder — replace with actual image" data-he="מקום שמור לתמונה — החלף בתמונה אמיתית">Photo placeholder — replace with actual image</span>
+    </p>
+  </div>
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+<div id="footer-placeholder"></div>
+<script src="../js/main.js"></script>
+<script>
+function openLightbox(caption) {
+  document.getElementById('lightboxCaption').textContent = caption;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

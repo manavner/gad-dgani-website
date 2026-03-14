@@ -1,0 +1,223 @@
+{
+  "name_en": "Gad Dgani",
+  "name_he": "גד דג'אני",
+  "title_en": "Professor Emeritus of Biology",
+  "title_he": "פרופסור אמריטוס לביולוגיה",
+  "institution_en": "Tel Aviv University",
+  "institution_he": "אוניברסיטת תל אביב",
+  "email": "gdgani@tauex.tau.ac.il",
+  "sections": [
+    {
+      "id": "education",
+      "title_en": "Education",
+      "title_he": "השכלה",
+      "entries": [
+        {
+          "years": "1965–1969",
+          "title_en": "B.Sc. in Biology (Summa Cum Laude)",
+          "title_he": "בוגר מדעים בביולוגיה (בהצטיינות יתרה)",
+          "institution": "Hebrew University of Jerusalem",
+          "desc_en": "Thesis: Chromosomal organization in Allium cepa root tip cells.",
+          "desc_he": "עבודת גמר: ארגון כרומוזומלי בתאי קצה השורש של Allium cepa."
+        },
+        {
+          "years": "1969–1972",
+          "title_en": "M.Sc. in Genetics",
+          "title_he": "מגיסטר במדעים בגנטיקה",
+          "institution": "Hebrew University of Jerusalem",
+          "desc_en": "Thesis: Mutagenic effects of alkylating agents on Drosophila melanogaster.",
+          "desc_he": "עבודת גמר: השפעות מוטגניות של חומרים מאלקילים על Drosophila melanogaster."
+        },
+        {
+          "years": "1972–1976",
+          "title_en": "Ph.D. in Developmental Biology",
+          "title_he": "דוקטורט בביולוגיה התפתחותית",
+          "institution": "Weizmann Institute of Science, Rehovot",
+          "desc_en": "Dissertation: Positional information and pattern formation in the chick limb bud. Supervised by Prof. Y. Ben-Shaul.",
+          "desc_he": "דיסרטציה: מידע מיקומי ויצירת דפוסים בניצן הגפה של העוף. בהדרכת פרופ' י. בן-שאול."
+        },
+        {
+          "years": "1976–1978",
+          "title_en": "Postdoctoral Fellow",
+          "title_he": "מחקר פוסט-דוקטורלי",
+          "institution": "University of Cambridge, MRC Laboratory of Molecular Biology, UK",
+          "desc_en": "Postdoctoral research with Prof. Lewis Wolpert on morphogenetic gradients.",
+          "desc_he": "מחקר פוסט-דוקטורלי עם פרופ' לואיס וולפרט על גרדיאנטים מורפוגנטיים."
+        }
+      ]
+    },
+    {
+      "id": "positions",
+      "title_en": "Academic Positions",
+      "title_he": "משרות אקדמיות",
+      "entries": [
+        {
+          "years": "1978–1983",
+          "title_en": "Lecturer, Department of Zoology",
+          "title_he": "מרצה, המחלקה לזואולוגיה",
+          "institution": "Tel Aviv University",
+          "desc_en": null
+        },
+        {
+          "years": "1983–1989",
+          "title_en": "Senior Lecturer, Department of Zoology",
+          "title_he": "מרצה בכיר, המחלקה לזואולוגיה",
+          "institution": "Tel Aviv University",
+          "desc_en": null
+        },
+        {
+          "years": "1989–1996",
+          "title_en": "Associate Professor, Department of Molecular Biology and Ecology of Plants",
+          "title_he": "פרופסור חבר, המחלקה לביולוגיה מולקולרית ואקולוגיה של צמחים",
+          "institution": "Tel Aviv University",
+          "desc_en": null
+        },
+        {
+          "years": "1996–2015",
+          "title_en": "Full Professor, Department of Molecular Biology and Ecology of Plants",
+          "title_he": "פרופסור מן המניין, המחלקה לביולוגיה מולקולרית ואקולוגיה של צמחים",
+          "institution": "Tel Aviv University",
+          "desc_en": null
+        },
+        {
+          "years": "1985–1987",
+          "title_en": "Visiting Professor",
+          "title_he": "פרופסור אורח",
+          "institution": "University of California, San Diego, Department of Biology",
+          "desc_en": null
+        },
+        {
+          "years": "1993–1994",
+          "title_en": "Visiting Senior Research Fellow",
+          "title_he": "חוקר בכיר אורח",
+          "institution": "Cambridge University, Department of Genetics",
+          "desc_en": null
+        },
+        {
+          "years": "2015–present",
+          "title_en": "Professor Emeritus",
+          "title_he": "פרופסור אמריטוס",
+          "institution": "Tel Aviv University",
+          "desc_en": null
+        }
+      ]
+    },
+    {
+      "id": "awards",
+      "title_en": "Awards & Honors",
+      "title_he": "פרסים והוקרה",
+      "entries": [
+        {
+          "years": "2012",
+          "title_en": "Israel Prize in Life Sciences",
+          "title_he": "פרס ישראל במדעי החיים",
+          "institution": "State of Israel, Ministry of Education",
+          "desc_en": "Awarded for outstanding lifetime contributions to developmental biology research.",
+          "desc_he": "הוענק בגין תרומות מצטיינות לאורך חיים לחקר הביולוגיה ההתפתחותית."
+        },
+        {
+          "years": "2005",
+          "title_en": "EMET Prize in Natural Sciences",
+          "title_he": "פרס אמ''ת במדעי הטבע",
+          "institution": "A.M.N. Foundation",
+          "desc_en": "Recognizing fundamental discoveries in developmental gene regulatory networks.",
+          "desc_he": "הכרה על תגליות בסיסיות ברשתות רגולציה גנטית התפתחותיות."
+        },
+        {
+          "years": "2000",
+          "title_en": "Rothschild Prize in Biology",
+          "title_he": "פרס רוטשילד בביולוגיה",
+          "institution": "Yad Hanadiv Foundation",
+          "desc_en": null
+        },
+        {
+          "years": "1995",
+          "title_en": "Humboldt Research Award",
+          "title_he": "פרס המחקר של הומבולדט",
+          "institution": "Alexander von Humboldt Foundation, Germany",
+          "desc_en": null
+        },
+        {
+          "years": "1990",
+          "title_en": "Tel Aviv University Rector's Prize for Excellence in Teaching",
+          "title_he": "פרס הרקטור של אוניברסיטת תל אביב למצוינות בהוראה",
+          "institution": "Tel Aviv University",
+          "desc_en": null
+        },
+        {
+          "years": "1979",
+          "title_en": "Alon Fellowship for Outstanding Young Scientists",
+          "title_he": "מלגת אלון לחוקרים צעירים מצטיינים",
+          "institution": "Israeli Council for Higher Education",
+          "desc_en": null
+        }
+      ]
+    },
+    {
+      "id": "grants",
+      "title_en": "Selected Research Grants",
+      "title_he": "מענקי מחקר נבחרים",
+      "entries": [
+        {
+          "years": "1980–2014",
+          "title_en": "Israel Science Foundation (ISF) — Multiple consecutive grants",
+          "title_he": "קרן המדע הישראלית (ISF) — מענקים רצופים מרובים",
+          "institution": null,
+          "desc_en": "Principal Investigator on 12 consecutive ISF grants covering developmental biology, epigenetics, and stem cell biology.",
+          "desc_he": "חוקר ראשי ב-12 מענקי ISF רצופים בתחומי הביולוגיה ההתפתחותית, האפיגנטיקה וביולוגיה של תאי גזע."
+        },
+        {
+          "years": "1995–2001",
+          "title_en": "European Research Council — Framework Programme 4 & 5",
+          "title_he": "המועצה האירופית למחקר — תכניות מסגרת 4 ו-5",
+          "institution": null,
+          "desc_en": "Consortium lead for an EU collaborative project on comparative developmental genomics.",
+          "desc_he": "מוביל קונסורציום של פרויקט שיתופי אירופאי בגנומיקה התפתחותית השוואתית."
+        },
+        {
+          "years": "1988–1994",
+          "title_en": "US-Israel Binational Science Foundation (BSF)",
+          "title_he": "הקרן הדו-לאומית למדע ארה\"ב-ישראל (BSF)",
+          "institution": null,
+          "desc_en": "Joint grant with UCSD on signal transduction in early embryos.",
+          "desc_he": "מענק משותף עם UCSD על העברת אותות בעוברים מוקדמים."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "title_en": "Academic Service",
+      "title_he": "שירות אקדמי",
+      "entries": [
+        {
+          "years": "2001–2007",
+          "title_en": "Dean, George S. Wise Faculty of Life Sciences",
+          "title_he": "דיקן, הפקולטה למדעי החיים ע\"ש ג' ס' וייז",
+          "institution": "Tel Aviv University",
+          "desc_en": null
+        },
+        {
+          "years": "1997–2001",
+          "title_en": "Head, Department of Molecular Biology and Ecology of Plants",
+          "title_he": "ראש המחלקה לביולוגיה מולקולרית ואקולוגיה של צמחים",
+          "institution": "Tel Aviv University",
+          "desc_en": null
+        },
+        {
+          "years": "1992–1998",
+          "title_en": "Associate Editor",
+          "title_he": "עורך משנה",
+          "institution": "Development (The Company of Biologists)",
+          "desc_en": null
+        },
+        {
+          "years": "2003–2010",
+          "title_en": "Member, Scientific Advisory Board",
+          "title_he": "חבר, מועצת הייעוץ המדעי",
+          "institution": "European Molecular Biology Organization (EMBO)",
+          "desc_en": null
+        }
+      ]
+    }
+  ]
+}

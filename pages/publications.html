@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Professor Gad Degani</title>
+  <meta name="description" content="Full list of 297 publications by Professor Gad Degani." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Publications-page extras ── */
+    .pub-controls {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+    }
+
+    .year-select {
+      background: rgba(10,15,35,0.6);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--cream);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.88rem;
+      padding: 0.5rem 2rem 0.5rem 0.85rem;
+      cursor: pointer;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c9a84c' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.7rem center;
+      transition: border-color 0.25s;
+    }
+
+    .year-select:focus { border-color: var(--gold); }
+
+    html[lang="he"] .year-select {
+      padding: 0.5rem 0.85rem 0.5rem 2rem;
+      background-position: left 0.7rem center;
+    }
+
+    /* Publication card */
+    .pub-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: var(--radius);
+      padding: 1.4rem 1.75rem;
+      transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    html[lang="he"] .pub-card {
+      border-left: 1px solid var(--border);
+      border-right: 3px solid var(--gold);
+    }
+
+    .pub-card:hover {
+      border-color: rgba(201,168,76,0.45);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+      transform: translateY(-2px);
+    }
+
+    .pub-card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      color: var(--cream);
+      line-height: 1.45;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .pub-card-title:hover { color: var(--gold-light); }
+
+    .pub-card-title.no-link { cursor: default; }
+    .pub-card-title.no-link:hover { color: var(--cream); }
+
+    .pub-card-authors {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .pub-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.88rem;
+      color: var(--cream-dim);
+      font-style: italic;
+    }
+
+    .pub-card-footer {
+      margin-top: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-read {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.38rem 1rem;
+      font-size: 0.82rem;
+      font-weight: 500;
+      font-family: 'Inter', sans-serif;
+      color: var(--gold);
+      border: 1px solid rgba(201,168,76,0.35);
+      border-radius: 20px;
+      background: rgba(201,168,76,0.07);
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .btn-read:hover {
+      background: rgba(201,168,76,0.18);
+      border-color: var(--gold);
+      color: var(--gold-light);
+    }
+
+    .pub-list-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .pub-count-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 20px;
+      padding: 0.3rem 0.85rem;
+      font-size: 0.82rem;
+      color: var(--gold);
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<div class="page-wrapper">
+
+  <div class="page-header">
+    <span class="section-label" data-en="Academic Record" data-he="רקורד אקדמי">Academic Record</span>
+    <h1 class="page-title" data-en="Publications" data-he="פרסומים">Publications</h1>
+    <p class="page-subtitle"
+       data-en="Articles, reviews &amp; chapters · 1970–2026"
+       data-he="מאמרים, סקירות ופרקים · 1970–2026">
+      Articles, reviews &amp; chapters · 1970–2026
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- ── Search box ── -->
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input
+          class="search-input"
+          id="pubSearch"
+          type="search"
+          data-en-placeholder="Search by title or author…"
+          data-he-placeholder="חפש לפי כותרת או מחבר…"
+          placeholder="Search by title or author…"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- ── Controls: year dropdown + count ── -->
+      <div class="pub-controls">
+        <select id="yearSelect" class="year-select" aria-label="Filter by year">
+          <option value="all" data-en="All Years" data-he="כל השנים">All Years</option>
+        </select>
+        <div class="pub-count-badge" id="pubCount">Loading…</div>
+      </div>
+
+      <!-- ── Publications list ── -->
+      <div id="pubContainer">
+        <div class="loader">
+          <div class="loader-dot"></div>
+          <div class="loader-dot"></div>
+          <div class="loader-dot"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+<div id="footer-placeholder"></div>
+<script src="../js/main.js"></script>
+</body>
+</html>

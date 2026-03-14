@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Professor Gad Degani</title>
+  <meta name="description" content="Contact Professor Gad Degani, Emeritus Professor of Biology at MIGAL – Galilee Research Institute and Tel-Hai University." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<div class="page-wrapper">
+
+  <div class="page-header">
+    <span class="section-label" data-en="Get in Touch" data-he="ליצירת קשר">Get in Touch</span>
+    <h1 class="page-title" data-en="Contact" data-he="צור קשר">Contact</h1>
+    <p class="page-subtitle"
+       data-en="Questions, collaboration inquiries, and correspondence"
+       data-he="שאלות, פניות לשיתוף פעולה ותכתובת">
+      Questions, collaboration inquiries, and correspondence
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div>
+          <span class="section-label" data-en="Contact Information" data-he="פרטי יצירת קשר">Contact Information</span>
+          <h2 class="section-title mt-1" data-en="Reach Out" data-he="פנה אלינו">Reach Out</h2>
+          <div class="gold-divider left"></div>
+
+          <p style="color:var(--cream-dim);font-size:0.95rem;margin:1.5rem 0 2rem;line-height:1.7"
+             data-en="Professor Degani welcomes correspondence from students, researchers, and colleagues with questions about his work in aquatic biology, amphibian ecology, and aquaculture."
+             data-he="פרופסור דגני מברך על פניות מסטודנטים, חוקרים ועמיתים עם שאלות על עבודתו בביולוגיה מימית, אקולוגיית דו-חיים ואקוואקולטורה.">
+            Professor Degani welcomes correspondence from students, researchers, and colleagues with questions about his work in aquatic biology, amphibian ecology, and aquaculture.
+          </p>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <div class="contact-label" data-en="Email (MIGAL)" data-he="דוא&quot;ל (מיגל)">Email (MIGAL)</div>
+              <a class="contact-value" href="mailto:gad@migal.org.il">gad@migal.org.il</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <div class="contact-label" data-en="Personal Email" data-he="דוא&quot;ל אישי">Personal Email</div>
+              <a class="contact-value" href="mailto:gdgd1943@gmail.com">gdgd1943@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-label" data-en="Institution" data-he="מוסד">Institution</div>
+              <div class="contact-value"
+                   data-en="MIGAL – Galilee Research Institute · Tel-Hai University, Faculty of Sciences · Upper Galilee, Israel"
+                   data-he="מיגל – מכון המחקר לגליל · אוניברסיטת תל-חי, הפקולטה למדעים · גליל עליון, ישראל">
+                MIGAL – Galilee Research Institute<br>
+                Tel-Hai University, Faculty of Sciences<br>
+                Upper Galilee, Israel
+              </div>
+            </div>
+          </div>
+
+          <!-- Map placeholder -->
+          <div style="margin-top:2rem;background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius-lg);aspect-ratio:16/9;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.75rem;color:var(--text-muted)">
+            <span style="font-size:2rem">🗺</span>
+            <span style="font-size:0.85rem;text-align:center;padding:0 1rem"
+                  data-en="MIGAL – Galilee Research Institute, Kiryat Shmona"
+                  data-he="מיגל – מכון המחקר לגליל, קריית שמונה">
+              MIGAL – Galilee Research Institute, Kiryat Shmona
+            </span>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div>
+          <span class="section-label" data-en="Send a Message" data-he="שלח הודעה">Send a Message</span>
+          <h2 class="section-title mt-1" data-en="Write to Prof. Degani" data-he="כתוב לפרופ׳ דגני">Write to Prof. Degani</h2>
+          <div class="gold-divider left"></div>
+
+          <div class="contact-form mt-3">
+            <div id="formSuccess" style="display:none;background:rgba(201,168,76,0.1);border:1px solid var(--gold);border-radius:var(--radius);padding:1rem;margin-bottom:1.25rem;color:var(--gold-light);font-size:0.9rem">
+              <span data-en="✓ Your message has been sent. Professor Degani will respond when possible." data-he="✓ הודעתך נשלחה. פרופסור דגני ישיב כשיתאפשר.">
+                ✓ Your message has been sent. Professor Degani will respond when possible.
+              </span>
+            </div>
+
+            <form id="contactForm" novalidate>
+              <div class="grid-2">
+                <div class="form-group">
+                  <label class="form-label" for="firstName" data-en="First Name" data-he="שם פרטי">First Name</label>
+                  <input class="form-input" type="text" id="firstName" name="firstName" required
+                         data-en-placeholder="Jane" data-he-placeholder="ישראל"
+                         placeholder="Jane" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="lastName" data-en="Last Name" data-he="שם משפחה">Last Name</label>
+                  <input class="form-input" type="text" id="lastName" name="lastName" required
+                         data-en-placeholder="Smith" data-he-placeholder="ישראלי"
+                         placeholder="Smith" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email" data-en="Email Address" data-he="כתובת דוא&quot;ל">Email Address</label>
+                <input class="form-input" type="email" id="email" name="email" required
+                       data-en-placeholder="jane.smith@example.com" data-he-placeholder="israel@example.com"
+                       placeholder="jane.smith@example.com" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="affiliation" data-en="Affiliation (optional)" data-he="מוסד השתייכות (אופציונלי)">Affiliation (optional)</label>
+                <input class="form-input" type="text" id="affiliation" name="affiliation"
+                       data-en-placeholder="University / Organization" data-he-placeholder="אוניברסיטה / ארגון"
+                       placeholder="University / Organization" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="subject" data-en="Subject" data-he="נושא">Subject</label>
+                <select class="form-input" id="subject" name="subject">
+                  <option value="" disabled selected data-en="Select a topic..." data-he="בחר נושא...">Select a topic...</option>
+                  <option value="research" data-en="Research inquiry" data-he="פניית מחקר">Research inquiry</option>
+                  <option value="collaboration" data-en="Collaboration proposal" data-he="הצעת שיתוף פעולה">Collaboration proposal</option>
+                  <option value="media" data-en="Media / press inquiry" data-he="פנייה תקשורתית">Media / press inquiry</option>
+                  <option value="student" data-en="Student / academic question" data-he="שאלת סטודנט / אקדמית">Student / academic question</option>
+                  <option value="other" data-en="Other" data-he="אחר">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message" data-en="Message" data-he="הודעה">Message</label>
+                <textarea class="form-textarea" id="message" name="message" required
+                          data-en-placeholder="Please write your message here..."
+                          data-he-placeholder="אנא כתוב את הודעתך כאן..."
+                          placeholder="Please write your message here..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
+                <span data-en="Send Message" data-he="שלח הודעה">Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<div id="footer-placeholder"></div>
+<script src="../js/main.js"></script>
+</body>
+</html>

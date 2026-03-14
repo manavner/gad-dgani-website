@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Professor Gad Degani</title>
+  <meta name="description" content="Research areas of Professor Gad Degani: amphibian ecology, fish physiology, molecular sex determination, and aquaculture." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    .species-chip {
+      display: inline-block;
+      background: rgba(201,168,76,0.08);
+      border: 1px solid rgba(201,168,76,0.2);
+      color: var(--gold);
+      font-size: 0.78rem;
+      font-style: italic;
+      padding: 0.15rem 0.6rem;
+      border-radius: 20px;
+      margin: 0.2rem 0.15rem;
+    }
+    .topic-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.75rem 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .topic-list li::before {
+      content: '›';
+      color: var(--gold);
+      margin-right: 0.5rem;
+      font-weight: 700;
+    }
+    html[lang="he"] .topic-list li::before {
+      margin-right: 0;
+      margin-left: 0.5rem;
+    }
+    .topic-list li {
+      font-size: 0.92rem;
+      color: var(--cream-dim);
+    }
+    .field-site-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+    .field-site-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .field-site-icon {
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<div class="page-wrapper">
+
+  <div class="page-header">
+    <span class="section-label" data-en="Scientific Work" data-he="עבודה מדעית">Scientific Work</span>
+    <h1 class="page-title" data-en="Research" data-he="מחקר">Research</h1>
+    <p class="page-subtitle"
+       data-en="Aquatic biology, ecology, and molecular science in northern Israel and beyond"
+       data-he="ביולוגיה מימית, אקולוגיה ומדע מולקולרי בצפון ישראל ומעבר לו">
+      Aquatic biology, ecology, and molecular science in northern Israel and beyond
+    </p>
+  </div>
+
+  <!-- Overview -->
+  <section class="section section-alt">
+    <div class="container-narrow text-center">
+      <p style="font-size:1.08rem;line-height:1.8;color:var(--cream-dim)"
+         data-en="Professor Degani's research integrates ecology, molecular biology, endocrinology, and environmental science to address fundamental and applied questions about how aquatic organisms live, reproduce, and adapt — with a strong emphasis on species native to Israel's Upper Galilee and the Middle East."
+         data-he="מחקרו של פרופסור דגני משלב אקולוגיה, ביולוגיה מולקולרית, אנדוקרינולוגיה ומדעי הסביבה לטיפול בשאלות יסוד ויישומיות על אופן החיים, הרבייה וההסתגלות של אורגניזמים מימיים — תוך דגש חזק על מינים מקומיים לגליל העליון ולמזרח התיכון.">
+        Professor Degani's research integrates ecology, molecular biology, endocrinology, and environmental science to address fundamental and applied questions about how aquatic organisms live, reproduce, and adapt — with a strong emphasis on species native to Israel's Upper Galilee and the Middle East.
+      </p>
+    </div>
+  </section>
+
+  <!-- Research Areas -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center mb-3">
+        <span class="section-label" data-en="Core Research Areas" data-he="תחומי מחקר מרכזיים">Core Research Areas</span>
+        <h2 class="section-title" data-en="Research Programs" data-he="תכניות מחקר">Research Programs</h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <!-- Area 1 -->
+      <div class="research-area mb-3" style="margin-bottom:1.5rem">
+        <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+          <div style="font-size:2.5rem;flex-shrink:0;margin-top:0.2rem">🦎</div>
+          <div style="flex:1;min-width:250px">
+            <h3 class="research-area-title"
+                data-en="Amphibian Ecology and Conservation"
+                data-he="אקולוגיית דו-חיים ושימור">Amphibian Ecology and Conservation</h3>
+
+            <div style="margin:0.5rem 0">
+              <span class="species-chip">Salamandra infraimmaculata</span>
+              <span class="species-chip">Ommatotriton vittatus</span>
+              <span class="species-chip">Bufotes viridis</span>
+              <span class="species-chip">Pelophylax bedriagae</span>
+            </div>
+
+            <p class="card-text mt-2"
+               data-en="This long-running research program studies the biology, ecology, and conservation of amphibian species across Israel, with particular focus on their life cycles, population dynamics, color variation, habitat requirements, and vulnerability to human-induced environmental change."
+               data-he="תכנית מחקר ממושכת זו חוקרת את הביולוגיה, האקולוגיה ושימור מינים של דו-חיים ברחבי ישראל, עם דגש מיוחד על מחזורי חיים, דינמיקת אוכלוסיות, וריאציית צבע, דרישות בית גידול ופגיעות לשינוי סביבתי הנגרם על ידי האדם.">
+              This long-running research program studies the biology, ecology, and conservation of amphibian species across Israel, with particular focus on their life cycles, population dynamics, color variation, habitat requirements, and vulnerability to human-induced environmental change.
+            </p>
+
+            <ul class="topic-list">
+              <li data-en="Life cycle and reproductive ecology of fire salamanders" data-he="מחזור חיים ואקולוגיה רבייתית של סלמנדרות אש">Life cycle and reproductive ecology of fire salamanders</li>
+              <li data-en="Habitat ecology and distribution across Israeli landscapes" data-he="אקולוגיית בית גידול ותפוצה בנופי ישראל">Habitat ecology and distribution across Israeli landscapes</li>
+              <li data-en="Environmental constraints and semi-arid adaptation" data-he="אילוצים סביבתיים והסתגלות לתנאים חצי-יבשים">Environmental constraints and semi-arid adaptation</li>
+              <li data-en="Impact of human activity on breeding sites" data-he="השפעת פעילות אנושית על אתרי רבייה">Impact of human activity on breeding sites</li>
+              <li data-en="Color variation as adaptive strategy" data-he="וריאציית צבע כאסטרטגיה הסתגלותית">Color variation as adaptive strategy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area 2 -->
+      <div class="research-area mb-3" style="margin-bottom:1.5rem">
+        <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+          <div style="font-size:2.5rem;flex-shrink:0;margin-top:0.2rem">🐟</div>
+          <div style="flex:1;min-width:250px">
+            <h3 class="research-area-title"
+                data-en="Fish Reproductive Physiology"
+                data-he="פיזיולוגיית רבייה של דגים">Fish Reproductive Physiology</h3>
+
+            <div style="margin:0.5rem 0">
+              <span class="species-chip">Trichogaster trichopterus (Blue Gourami)</span>
+              <span class="species-chip">Acipenser gueldenstaedtii (Russian Sturgeon)</span>
+              <span class="species-chip">Anguilla anguilla (European Eel)</span>
+            </div>
+
+            <p class="card-text mt-2"
+               data-en="Research into the neuroendocrine control of reproduction in teleost fish, examining the brain-pituitary-gonad (HPG) axis, gonadotropin gene expression, steroid hormone dynamics, and the environmental and behavioral factors that modulate reproductive cycles."
+               data-he="מחקר בשליטה נוירואנדוקרינית של רבייה בדגי עצם, תוך בחינת ציר המוח-יותרת המוח-גונדה (HPG), ביטוי גנים של גונדוטרופין, דינמיקת הורמוני סטרואיד, ומשתנים סביבתיים והתנהגותיים המווסתים מחזורי רבייה.">
+              Research into the neuroendocrine control of reproduction in teleost fish, examining the brain-pituitary-gonad (HPG) axis, gonadotropin gene expression, steroid hormone dynamics, and the environmental and behavioral factors that modulate reproductive cycles.
+            </p>
+
+            <ul class="topic-list">
+              <li data-en="Brain-pituitary-gonad axis regulation" data-he="ויסות ציר מוח-יותרת המוח-גונדה">Brain-pituitary-gonad axis regulation</li>
+              <li data-en="FSH, LH, and growth hormone gene expression" data-he="ביטוי גנים של FSH, LH והורמון גדילה">FSH, LH, and growth hormone gene expression</li>
+              <li data-en="Behavioral and endocrine interactions in Blue Gourami" data-he="אינטראקציות התנהגותיות ואנדוקריניות בגורמי הכחול">Behavioral and endocrine interactions in Blue Gourami</li>
+              <li data-en="Vitellogenesis and oocyte maturation" data-he="ויטלוגנזה והבשלת ביציות">Vitellogenesis and oocyte maturation</li>
+              <li data-en="Temperature and photoperiod effects on reproduction" data-he="השפעות טמפרטורה ופוטופריוד על רבייה">Temperature and photoperiod effects on reproduction</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area 3 -->
+      <div class="research-area mb-3" style="margin-bottom:1.5rem">
+        <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+          <div style="font-size:2.5rem;flex-shrink:0;margin-top:0.2rem">🧬</div>
+          <div style="flex:1;min-width:250px">
+            <h3 class="research-area-title"
+                data-en="Molecular Sex Determination"
+                data-he="קביעת מין מולקולרית">Molecular Sex Determination</h3>
+
+            <div style="margin:0.5rem 0">
+              <span class="species-chip">Acipenser gueldenstaedtii (Russian Sturgeon)</span>
+            </div>
+
+            <p class="card-text mt-2"
+               data-en="Development of molecular tools for early sex identification in Russian Sturgeon — a species with no clear morphological sexual dimorphism until late in development. Early sex diagnosis is critical for the economics of caviar production, allowing farmers to optimize the female-to-male ratio in aquaculture facilities."
+               data-he="פיתוח כלים מולקולריים לזיהוי מין מוקדם בחדקנון הרוסי — מין ללא דימורפיזם מיני מורפולוגי ברור עד שלב מאוחר בהתפתחות. אבחנה מוקדמת של מין קריטית לכלכלת ייצור קוויאר, ומאפשרת לחקלאים לאופטימיזציה של יחס נקבות-זכרים במתקני אקוואקולטורה.">
+              Development of molecular tools for early sex identification in Russian Sturgeon — a species with no clear morphological sexual dimorphism until late in development. Early sex diagnosis is critical for the economics of caviar production, allowing farmers to optimize the female-to-male ratio in aquaculture facilities.
+            </p>
+
+            <ul class="topic-list">
+              <li data-en="Genetic markers for sex identification before gonadal differentiation" data-he="סמנים גנטיים לזיהוי מין לפני בידול גונדלי">Genetic markers for sex identification before gonadal differentiation</li>
+              <li data-en="Whole-genome inter-sex variation analysis" data-he="ניתוח וריאציה בין-מינית בכל הגנום">Whole-genome inter-sex variation analysis</li>
+              <li data-en="Sex-based gonadal gene expression differences" data-he="הבדלי ביטוי גנים גונדליים מבוססי מין">Sex-based gonadal gene expression differences</li>
+              <li data-en="Application in commercial caviar farming" data-he="יישום בגידול קוויאר מסחרי">Application in commercial caviar farming</li>
+              <li data-en="Economic evaluation of early sex determination" data-he="הערכה כלכלית של קביעת מין מוקדמת">Economic evaluation of early sex determination</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area 4 -->
+      <div class="research-area">
+        <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap">
+          <div style="font-size:2.5rem;flex-shrink:0;margin-top:0.2rem">🌊</div>
+          <div style="flex:1;min-width:250px">
+            <h3 class="research-area-title"
+                data-en="Aquaculture and Fish Farming"
+                data-he="אקוואקולטורה וגידול דגים">Aquaculture and Fish Farming</h3>
+
+            <p class="card-text mt-2"
+               data-en="Applied research into sustainable aquaculture systems, with focus on sturgeon farming for caviar in northern Israel, optimisation of closed recirculating water systems, nutritional requirements for growth and reproduction, and the emerging field of coral aquaculture."
+               data-he="מחקר יישומי במערכות אקוואקולטורה בנות-קיימא, עם דגש על גידול חדקנון לקוויאר בצפון ישראל, אופטימיזציה של מערכות מים סגורות ומחזוריות, דרישות תזונתיות לצמיחה ורבייה, ותחום המתפתח של אקוואקולטורה של אלמוגים.">
+              Applied research into sustainable aquaculture systems, with focus on sturgeon farming for caviar in northern Israel, optimisation of closed recirculating water systems, nutritional requirements for growth and reproduction, and the emerging field of coral aquaculture.
+            </p>
+
+            <ul class="topic-list">
+              <li data-en="Sturgeon acclimatization for optimal growth conditions" data-he="הסתגלות חדקנון לתנאי גדילה אופטימליים">Sturgeon acclimatization for optimal growth conditions</li>
+              <li data-en="Closed recirculating water system design" data-he="תכנון מערכות מים סגורות ומחזוריות">Closed recirculating water system design</li>
+              <li data-en="Coral aquaculture production systems" data-he="מערכות ייצור אקוואקולטורה של אלמוגים">Coral aquaculture production systems</li>
+              <li data-en="Business analysis and economic evaluation of aquaculture innovations" data-he="ניתוח עסקי והערכה כלכלית של חידושי אקוואקולטורה">Business analysis and economic evaluation of aquaculture innovations</li>
+              <li data-en="Waste management and circular approaches in fish farming" data-he="ניהול פסולת וגישות מעגליות בגידול דגים">Waste management and circular approaches in fish farming</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Field Research Sites -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="text-center mb-3">
+        <span class="section-label" data-en="Where We Work" data-he="היכן אנו עובדים">Where We Work</span>
+        <h2 class="section-title" data-en="Field Research Sites" data-he="אתרי מחקר שטח">Field Research Sites</h2>
+        <div class="gold-divider"></div>
+        <p class="text-muted mt-2"
+           data-en="Long-term ecological monitoring and field research across northern Israel's key aquatic and semi-arid habitats."
+           data-he="ניטור אקולוגי ארוך-טווח ומחקר שטח בבתי הגידול המימיים וחצי-היבשים המרכזיים של צפון ישראל.">
+          Long-term ecological monitoring and field research across northern Israel's key aquatic and semi-arid habitats.
+        </p>
+      </div>
+
+      <div class="field-site-grid">
+        <div class="field-site-card">
+          <div class="field-site-icon">🌾</div>
+          <div>
+            <div style="font-weight:600;color:var(--cream);font-size:0.95rem" data-en="Hula Valley" data-he="עמק החולה">Hula Valley</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)" data-en="Wetlands &amp; reserve" data-he="ביצות ושמורה">Wetlands &amp; reserve</div>
+          </div>
+        </div>
+        <div class="field-site-card">
+          <div class="field-site-icon">🏔️</div>
+          <div>
+            <div style="font-weight:600;color:var(--cream);font-size:0.95rem" data-en="Upper Galilee" data-he="גליל עליון">Upper Galilee</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)" data-en="Forests &amp; streams" data-he="יערות ונחלים">Forests &amp; streams</div>
+          </div>
+        </div>
+        <div class="field-site-card">
+          <div class="field-site-icon">🗻</div>
+          <div>
+            <div style="font-weight:600;color:var(--cream);font-size:0.95rem" data-en="Golan Heights" data-he="רמת הגולן">Golan Heights</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)" data-en="Basalt pools &amp; streams" data-he="בריכות בזלת ונחלים">Basalt pools &amp; streams</div>
+          </div>
+        </div>
+        <div class="field-site-card">
+          <div class="field-site-icon">❄️</div>
+          <div>
+            <div style="font-weight:600;color:var(--cream);font-size:0.95rem" data-en="Mount Hermon" data-he="הר חרמון">Mount Hermon</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)" data-en="High-altitude habitat" data-he="בית גידול בגובה רב">High-altitude habitat</div>
+          </div>
+        </div>
+        <div class="field-site-card">
+          <div class="field-site-icon">💧</div>
+          <div>
+            <div style="font-weight:600;color:var(--cream);font-size:0.95rem" data-en="Zavitan Stream" data-he="נחל זוויתן">Zavitan Stream</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)" data-en="Salamander breeding site" data-he="אתר רבייה של סלמנדרות">Salamander breeding site</div>
+          </div>
+        </div>
+        <div class="field-site-card">
+          <div class="field-site-icon">🌊</div>
+          <div>
+            <div style="font-weight:600;color:var(--cream);font-size:0.95rem" data-en="Dan Stream" data-he="נחל דן">Dan Stream</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)" data-en="Amphibian population study" data-he="מחקר אוכלוסיות דו-חיים">Amphibian population study</div>
+          </div>
+        </div>
+        <div class="field-site-card">
+          <div class="field-site-icon">🐾</div>
+          <div>
+            <div style="font-weight:600;color:var(--cream);font-size:0.95rem" data-en="Sasa Breeding Pools" data-he="בריכות שסא">Sasa Breeding Pools</div>
+            <div style="font-size:0.8rem;color:var(--text-muted)" data-en="Key Salamandra habitat" data-he="בית גידול מרכזי של סלמנדרה">Key Salamandra habitat</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Current Projects -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center mb-3">
+        <span class="section-label" data-en="Ongoing Work" data-he="עבודה שוטפת">Ongoing Work</span>
+        <h2 class="section-title" data-en="Current Projects" data-he="פרויקטים נוכחיים">Current Projects</h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h4 class="card-title"
+              data-en="1. Molecular Sex Identification in Russian Sturgeon"
+              data-he="1. זיהוי מין מולקולרי בחדקנון הרוסי">1. Molecular Sex Identification in Russian Sturgeon</h4>
+          <p class="card-text mt-1"
+             data-en="Early molecular sex determination before gonadal differentiation — with direct application to caviar farming in Israel."
+             data-he="קביעת מין מולקולרית מוקדמת לפני בידול גונדלי — עם יישום ישיר לגידול קוויאר בישראל.">
+            Early molecular sex determination before gonadal differentiation — with direct application to caviar farming in Israel.
+          </p>
+        </div>
+        <div class="card">
+          <h4 class="card-title"
+              data-en="2. Epitranscriptomic Regulation (m6A) in Fish and Amphibians"
+              data-he="2. ויסות אפיטרנסקריפטומי (m6A) בדגים ובדו-חיים">2. Epitranscriptomic Regulation (m6A) in Fish and Amphibians</h4>
+          <p class="card-text mt-1"
+             data-en="Characterising m6A RNA methylation variation across life stages and sexes in Ommatotriton vittatus and Trichogaster trichopterus."
+             data-he="אפיון וריאציית מתילציית RNA m6A לאורך שלבי חיים ובין המינים ב-Ommatotriton vittatus וב-Trichogaster trichopterus.">
+            Characterising m6A RNA methylation variation across life stages and sexes in Ommatotriton vittatus and Trichogaster trichopterus.
+          </p>
+        </div>
+        <div class="card">
+          <h4 class="card-title"
+              data-en="3. Ecology of Salamandra infraimmaculata in Northern Israel"
+              data-he="3. אקולוגיה של Salamandra infraimmaculata בצפון ישראל">3. Ecology of Salamandra infraimmaculata in Northern Israel</h4>
+          <p class="card-text mt-1"
+             data-en="Long-term monitoring of breeding site ecology, population dynamics, and habitat threats at Sasa, Zavitan, and Dan sites."
+             data-he="ניטור ארוך-טווח של אקולוגיית אתרי רבייה, דינמיקת אוכלוסיות ואיומי בית גידול באתרי שסא, זוויתן ודן.">
+            Long-term monitoring of breeding site ecology, population dynamics, and habitat threats at Sasa, Zavitan, and Dan sites.
+          </p>
+        </div>
+        <div class="card">
+          <h4 class="card-title"
+              data-en="4. Coral Aquaculture Production Systems"
+              data-he="4. מערכות ייצור אקוואקולטורה של אלמוגים">4. Coral Aquaculture Production Systems</h4>
+          <p class="card-text mt-1"
+             data-en="Developing controlled coral cultivation methods for reef restoration and investigating the commercial potential of coral-based aquaculture."
+             data-he="פיתוח שיטות גידול אלמוגים מבוקר לשיקום שוניות וחקר הפוטנציאל המסחרי של אקוואקולטורה מבוססת אלמוגים.">
+            Developing controlled coral cultivation methods for reef restoration and investigating the commercial potential of coral-based aquaculture.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center mt-3">
+        <a href="publications.html" class="btn btn-outline"
+           data-en="Browse All Publications"
+           data-he="עיין בכל הפרסומים">Browse All Publications</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<div id="footer-placeholder"></div>
+<script src="../js/main.js"></script>
+</body>
+</html>

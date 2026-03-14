@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Professor Gad Degani</title>
+  <meta name="description" content="Curriculum Vitae of Professor Gad Degani — education, academic positions, awards, and service." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<div class="page-wrapper">
+
+  <div class="page-header">
+    <span class="section-label" data-en="Academic Profile" data-he="פרופיל אקדמי">Academic Profile</span>
+    <h1 class="page-title" data-en="Curriculum Vitae" data-he="קורות חיים">Curriculum Vitae</h1>
+    <p class="page-subtitle" data-en="Education, Positions, Awards &amp; Service" data-he="השכלה, משרות, פרסים ושירות">Education, Positions, Awards &amp; Service</p>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- CV header card -->
+      <div class="card mb-3" style="display:flex;gap:2rem;align-items:center;flex-wrap:wrap">
+        <div class="about-photo" style="width:100px;height:100px;border-radius:50%;border:2px solid var(--gold);padding:3px;margin:0;flex-shrink:0;overflow:hidden">
+          <div class="about-photo-inner" style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,var(--navy-mid),var(--navy-light));display:flex;align-items:center;justify-content:center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" width="50" height="50">
+              <circle cx="50" cy="38" r="20" fill="#c9a84c" opacity="0.5"/>
+              <ellipse cx="50" cy="82" rx="32" ry="22" fill="#c9a84c" opacity="0.3"/>
+            </svg>
+          </div>
+        </div>
+        <div style="flex:1;min-width:200px">
+          <h2 style="margin-bottom:0.25rem" data-en="Professor Gad Degani" data-he="פרופסור גד דגני">Professor Gad Degani</h2>
+          <p style="color:var(--gold);font-style:italic;margin-bottom:0.5rem" data-en="Professor Emeritus of Biology" data-he="פרופסור אמריטוס לביולוגיה">Professor Emeritus of Biology</p>
+          <p style="color:var(--text-muted);font-size:0.9rem;margin:0" data-en="Faculty of Sciences &amp; Technology, Tel-Hai Academic College, Tel Aviv 69978, Israel"
+             data-he="הפקולטה למדעי החיים ע&quot;ש ג׳ורג׳ ס. וייז, המכללה האקדמית תל-חי, תל אביב 69978, ישראל">
+            Faculty of Sciences &amp; Technology, Tel-Hai Academic College, Tel Aviv 69978, Israel
+          </p>
+          <p style="color:var(--text-muted);font-size:0.9rem;margin:0.25rem 0 0">✉ <a href="mailto:gdgani@tauex.tau.ac.il">gdgani@tauex.tau.ac.il</a></p>
+        </div>
+        <div style="flex-shrink:0">
+          <a href="#" class="btn btn-outline" onclick="window.print();return false"
+             data-en="⬇ Download PDF" data-he="⬇ הורד PDF" style="font-size:0.85rem">⬇ Download PDF</a>
+        </div>
+      </div>
+
+      <!-- CV sections (loaded from JSON) -->
+      <div id="cvContainer">
+        <div class="loader">
+          <div class="loader-dot"></div>
+          <div class="loader-dot"></div>
+          <div class="loader-dot"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+<div id="footer-placeholder"></div>
+<script src="../js/main.js"></script>
+</body>
+</html>
